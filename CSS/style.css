@@ -6,9 +6,14 @@
 
 :root {
   font-size: 62.5%; /* 10px */
+
   --hue: 257;
   --primary-color: hsl(var(--hue), 100%, 44%);
-  --general-font: 'Forma DJR Display medium';
+  --secondary-color: 	hsl(253, 100%, 81%);
+
+  --font-text-medium: 'Forma DJR Display medium';
+  --font-text-normal: 'Forma DJR Display normal';
+  --font-text-light: 'Forma DJR Display leve'
 }
 
 .hide {
@@ -19,6 +24,15 @@
   font-family: 'Forma DJR Display medium';
   src: url(/fonts/formadjrdisplay-medium.ttf);
 }
+@font-face {
+  font-family: 'Forma DJR Display normal';
+  src: url(/fonts/formadjrdisplay-normal.ttf);
+}
+@font-face {
+  font-family: 'Forma DJR Display leve';
+  src: url(/fonts/formadjrdisplay-leve.ttf);
+}
+
 
 /* ########## start header styles ##########*/
 
@@ -53,10 +67,42 @@ header {
   background-color: var(--primary-color);
 }
 
+.textBox {
+  color: #FFFFFF;
+  text-align: center;
+
+  width: 78%;
+
+  margin: 0 auto;
+}
+
 .textBox h1 {
   font-size: 7.5rem;
   line-height: 9.0rem;
-  
-  color: white;
-  font-family: var(--general-font);
+
+  font-family: var(--font-text-medium);
+}
+
+.textBox p strong {
+  font-family: var(--font-text-medium);
+}
+
+.textBox p:nth-child(2) {
+  font-size: 3.3rem;
+  line-height: 4.5rem;
+
+  font-family: var(--font-text-light);
+
+  margin-bottom: 2.0rem;
+}
+
+.textBox p:nth-child(3) {
+  font-size: 2.0rem;
+  line-height: 3.0rem;
+
+  font-family: var(--font-text-light);
+
+  color: var(--secondary-color);
+
+  margin-bottom: 7.0rem;
 }
