@@ -11,6 +11,7 @@
   --primary-color: hsl(var(--hue), 100%, 44%);
   --secondary-color: 	hsl(253, 100%, 81%);
   --third-color: 	hsl(253, 100%, 93%);
+  --gray-cardCheck: 	hsl(0, 0%, 96%);
 
   --font-text-medium: 'Forma DJR Display medium';
   --font-text-normal: 'Forma DJR Display normal';
@@ -164,10 +165,14 @@ header {
   align-items: center;
 }
 
+.card:last-child {
+  margin-bottom: 10.0rem;
+}
+
 .card h2,
-.card p {
+.card p,
+.cardCheck h2 {
   color: var(--primary-color);
-  text-align: center;
 }
 
 .card svg {
@@ -179,11 +184,45 @@ header {
   font-family: var(--font-text-medium);
   font-size: 3.5rem;
   line-height: 4.5rem;
+  text-align: center;
 }
 
 .card p {
   font-family: var(--font-text-light);
   font-size: 1.8rem;
   line-height: 3.0rem;
+  text-align: center;
+}
+
+.cardCheck {
+  background-color: var(--gray-cardCheck);
+  border: 1px solid var(--primary-color);
+  border-radius: 1.0rem;
+
+  width: 90%;
+  max-width: 33.3rem;
+
+  margin: 2.4rem auto 2.4rem;
+  padding: 3.8rem 1.7rem 3.7rem;
+}
+
+.cardCheck h2 {
+  font-family: var(--font-text-medium);
+  font-size: 3.3rem;
+  line-height: 3.5rem;
+
+  margin-block: 1.9rem;
+}
+
+.cardCheck p {
+  color: #090909;
+  font-family: var(--font-text-light);
+  font-size: 1.8rem;
+  line-height: 3.0rem;
+}
+
+.cardCheck p span {
+  font-style: italic;
+  font-family: var(--font-text-normal);
 }
 /* ########## end main styles ########## */
