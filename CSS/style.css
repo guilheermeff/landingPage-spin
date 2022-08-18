@@ -10,6 +10,7 @@
   --hue: 257;
   --primary-color: hsl(var(--hue), 100%, 44%);
   --secondary-color: 	hsl(253, 100%, 81%);
+  --third-color: 	hsl(253, 100%, 93%);
 
   --font-text-medium: 'Forma DJR Display medium';
   --font-text-normal: 'Forma DJR Display normal';
@@ -53,7 +54,8 @@ header {
   align-self: center;
 }
 
-/* ########## end header styles ##########*/
+/* ########## end header styles ########## */
+/* ########## start main styles ########## */
 
 .hello {
   display: flex;
@@ -138,3 +140,50 @@ header {
   bottom: .8rem;
   left: -49.6rem;
 }
+
+.cards {
+  position: relative;
+  z-index: 1;
+  top: -12.0rem;
+}
+
+.card {
+  background-color: var(--third-color);
+
+  width: 90%;
+  max-width: 33.4rem;
+
+  border-radius: 1.0rem;
+
+  margin: 0 auto 2.0rem;
+
+  padding: 0 2.7rem 4.1rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card h2,
+.card p {
+  color: var(--primary-color);
+  text-align: center;
+}
+
+.card svg {
+  margin-top: 4.0rem;
+  margin-bottom: 1.0rem;
+}
+
+.card h2 {
+  font-family: var(--font-text-medium);
+  font-size: 3.5rem;
+  line-height: 4.5rem;
+}
+
+.card p {
+  font-family: var(--font-text-light);
+  font-size: 1.8rem;
+  line-height: 3.0rem;
+}
+/* ########## end main styles ########## */
