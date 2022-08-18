@@ -68,12 +68,15 @@ header {
 }
 
 .textBox {
+  position: relative;
+  z-index: 1;
+  
   color: #FFFFFF;
   text-align: center;
 
   width: 78%;
 
-  margin: 0 auto;
+  margin: 7.0rem auto 0;
 }
 
 .textBox h1 {
@@ -105,4 +108,33 @@ header {
   color: var(--secondary-color);
 
   margin-bottom: 7.0rem;
+}
+
+.textBox button {
+  width: 28.5rem;
+  height: 5.0rem;
+
+  border: 0;
+  border-radius: 1.5rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2.2rem;
+}
+
+.textBox button span {
+  color: #3F00DE;
+
+  font-size: 1.5rem;
+  line-height: 3.0rem;
+  letter-spacing: 0.1em;
+
+  font-family: var(--font-text-normal);
+}
+
+.gradient {
+  position: relative;
+  bottom: .8rem;
+  left: -49.6rem;
 }
