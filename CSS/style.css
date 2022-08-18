@@ -8,11 +8,16 @@
   font-size: 62.5%; /* 10px */
   --hue: 257;
   --primary-color: hsl(var(--hue), 100%, 44%);
-
+  --general-font: 'Forma DJR Display medium';
 }
 
 .hide {
   display: none;
+}
+
+@font-face {
+  font-family: 'Forma DJR Display medium';
+  src: url(/fonts/formadjrdisplay-medium.ttf);
 }
 
 /* ########## start header styles ##########*/
@@ -46,4 +51,12 @@ header {
   height: 85.2rem;
 
   background-color: var(--primary-color);
+}
+
+.textBox h1 {
+  font-size: 7.5rem;
+  line-height: 9.0rem;
+  
+  color: white;
+  font-family: var(--general-font);
 }
