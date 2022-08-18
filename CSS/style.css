@@ -194,6 +194,10 @@ header {
   text-align: center;
 }
 
+.space {
+  height: 26.9rem;
+}
+
 .cardCheck {
   background-color: var(--gray-cardCheck);
   border: 1px solid var(--primary-color);
