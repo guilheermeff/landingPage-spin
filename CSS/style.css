@@ -99,6 +99,8 @@ header {
 
   width: 100%;
   max-width: 33.4rem;
+
+  margin: 0 auto;
 }
 
 .btnWhatsapp {
@@ -130,6 +132,7 @@ header {
 .gradient {
   position: relative;
   top: -4.2rem;
+  margin: 0 auto;
 }
 
 .gradient svg {
@@ -188,7 +191,8 @@ header {
 
 .cardsCheck h2 {
   font-size: 3.5rem;
-  margin: 0 3.8rem 5.0rem;
+  margin: 0 auto 5.0rem;
+  padding-left: 3.8rem;
   max-width: 33.3rem;
 }
 
