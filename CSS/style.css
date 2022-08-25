@@ -110,10 +110,15 @@ header {
   align-items: center;
   gap: 2.2rem;
 
-  padding: 1.25rem 1.625rem;
+  padding: .9rem 1.625rem;
+
+  margin: 0 auto;
+
+  position: relative;
+  z-index: 1;
 }
 
-.textBox button span {
+.btnWhatsapp span {
   color: #3F00DE;
 
   font-family: var(--font-general);
@@ -124,31 +129,30 @@ header {
 
 .gradient {
   position: relative;
-  bottom: .8rem;
-  left: -49.6rem;
+  top: -4.2rem;
+}
 
-  display: none;
+.gradient svg {
+  position: absolute;
+  left: -49.6rem;
 }
 
 .cards {
   position: relative;
-  z-index: 1;
-  top: -12.0rem;
-
-  display: none;
+  top: -11.0rem;
 }
 
 .card {
   background-color: var(--third-color);
 
-  width: 90%;
+  width: 100%;
   max-width: 33.4rem;
 
   border-radius: 1.0rem;
 
   margin: 0 auto 2.0rem;
 
-  padding: 0 2.7rem 4.1rem;
+  padding: 0 .9rem 4.1rem;
 
   display: flex;
   flex-direction: column;
@@ -177,7 +181,7 @@ header {
 }
 
 .card p {
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   line-height: 3.0rem;
   text-align: center;
 }
