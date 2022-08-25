@@ -13,9 +13,7 @@
   --third-color: 	hsl(253, 100%, 93%);
   --gray-cardCheck: 	hsl(0, 0%, 96%);
 
-  --font-text-medium: 'Forma DJR Display medium';
-  --font-text-normal: 'Forma DJR Display normal';
-  --font-text-light: 'Forma DJR Display leve'
+  --font-general: 'Poppins', sans-serif;
 }
 
 .hide {
@@ -33,6 +31,10 @@
 @font-face {
   font-family: 'Forma DJR Display leve';
   src: url(/fonts/formadjrdisplay-leve.ttf);
+}
+
+body {
+  font-family: var(--font-general);
 }
 
 
@@ -59,93 +61,81 @@ header {
 /* ########## start main styles ########## */
 
 .hello {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-
-  width: 100%;
   height: 85.2rem;
 
   background-color: var(--primary-color);
 }
 
 .textBox {
-  position: relative;
-  z-index: 1;
-  
   color: #FFFFFF;
   text-align: center;
 
-  width: 78%;
-
-  margin: 7.0rem auto 0;
+  padding: 7.2rem 2.0rem 7.0rem;
 }
 
 .textBox h1 {
   font-size: 7.5rem;
-  line-height: 9.0rem;
+  font-weight: 700;
+  line-height: 11.3rem;
 
-  font-family: var(--font-text-medium);
-}
-
-.textBox p strong {
-  font-family: var(--font-text-medium);
 }
 
 .textBox p:nth-child(2) {
-  font-size: 3.3rem;
+  font-size: 3.0rem;
+  font-weight: 400;
   line-height: 4.5rem;
 
-  font-family: var(--font-text-light);
+  margin: 0 auto 2.0rem;
 
-  margin-bottom: 2.0rem;
+  width: 100%;
+  max-width: 31.6rem;
 }
 
 .textBox p:nth-child(3) {
-  font-size: 2.0rem;
+  font-size: 1.8rem;
   line-height: 3.0rem;
-
-  font-family: var(--font-text-light);
 
   color: var(--secondary-color);
 
-  margin-bottom: 7.0rem;
+  width: 100%;
+  max-width: 33.4rem;
 }
 
-.textBox button {
-  width: 28.5rem;
-  height: 5.0rem;
-
+.btnWhatsapp {
   border: 0;
-  border-radius: 1.5rem;
+  border-radius: .5rem;
 
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 2.2rem;
+
+  padding: 1.25rem 1.625rem;
 }
 
 .textBox button span {
   color: #3F00DE;
 
+  font-family: var(--font-general);
   font-size: 1.5rem;
   line-height: 3.0rem;
   letter-spacing: 0.1em;
-
-  font-family: var(--font-text-normal);
 }
 
 .gradient {
   position: relative;
   bottom: .8rem;
   left: -49.6rem;
+
+  display: none;
 }
 
 .cards {
   position: relative;
   z-index: 1;
   top: -12.0rem;
+
+  display: none;
 }
 
 .card {
@@ -181,14 +171,12 @@ header {
 }
 
 .card h2 {
-  font-family: var(--font-text-medium);
   font-size: 3.5rem;
   line-height: 4.5rem;
   text-align: center;
 }
 
 .card p {
-  font-family: var(--font-text-light);
   font-size: 1.8rem;
   line-height: 3.0rem;
   text-align: center;
@@ -211,7 +199,6 @@ header {
 }
 
 .cardCheck h2 {
-  font-family: var(--font-text-medium);
   font-size: 3.3rem;
   line-height: 3.5rem;
 
@@ -220,13 +207,11 @@ header {
 
 .cardCheck p {
   color: #090909;
-  font-family: var(--font-text-light);
   font-size: 1.8rem;
   line-height: 3.0rem;
 }
 
 .cardCheck p span {
   font-style: italic;
-  font-family: var(--font-text-normal);
 }
 /* ########## end main styles ########## */
