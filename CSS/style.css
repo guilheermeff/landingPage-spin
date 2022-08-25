@@ -163,10 +163,6 @@ header {
   padding: 0 .9rem 4.0rem;
 }
 
-.card:last-child {
-  margin-bottom: 10.0rem;
-}
-
 .card h2,
 .card p,
 .cardCheck h3 {
