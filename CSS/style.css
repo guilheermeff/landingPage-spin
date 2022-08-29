@@ -66,6 +66,8 @@ header {
   height: 85.2rem;
 
   background-color: var(--primary-color);
+
+  overflow-x: hidden;
 }
 
 .textBox {
