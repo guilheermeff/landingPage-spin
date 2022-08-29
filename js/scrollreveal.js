@@ -2,7 +2,7 @@ export function scroll() {
   window.sr = ScrollReveal({reset: true})
 
   ScrollReveal().reveal('header',{
-    delay: 300,
+    delay: 100,
     rotate: {
       x: 100,
       y: 0,
@@ -11,7 +11,7 @@ export function scroll() {
   })
 
   ScrollReveal().reveal('.hello',{
-    delay: 300,
+    delay: 100,
     rotate: {
       x: 100,
       y: 0,
@@ -19,7 +19,7 @@ export function scroll() {
     }
   })
   ScrollReveal().reveal('.card',{
-    delay: 300,
+    delay: 200,
     rotate: {
       x: 100,
       y: 0,
@@ -27,7 +27,7 @@ export function scroll() {
     }
   })
   ScrollReveal().reveal('.cardCheck',{
-    delay: 300,
+    delay: 200,
     rotate: {
       x: 100,
       y: 0,
@@ -35,7 +35,7 @@ export function scroll() {
     }
   })
   ScrollReveal().reveal('.acting',{
-    delay: 300,
+    delay: 200,
     rotate: {
       x: 100,
       y: 0,
@@ -43,7 +43,7 @@ export function scroll() {
     }
   })
   ScrollReveal().reveal('.service',{
-    delay: 300,
+    delay: 200,
     rotate: {
       x: 100,
       y: 0,
