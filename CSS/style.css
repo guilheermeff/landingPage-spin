@@ -1,3 +1,4 @@
+/* ########## start general styles ########## */
 * {
   margin: 0;
   padding: 0;
@@ -35,9 +36,10 @@
 
 body {
   font-family: var(--font-general);
+  overflow-x: hidden;
 }
 
-
+/* ########## end general styles ########## */
 /* ########## start header styles ##########*/
 
 header {
@@ -104,7 +106,6 @@ header {
 }
 
 .btnWhatsapp {
-  background-color: #FFFFFF;
   border: 0;
   border-radius: .5rem;
 
@@ -122,12 +123,18 @@ header {
 }
 
 .btnWhatsapp span {
-  color: #3F00DE;
-
   font-family: var(--font-general);
   font-size: 1.5rem;
   line-height: 3.0rem;
   letter-spacing: 0.1em;
+}
+
+.hello .btnWhatsapp {
+  background-color: #FFFFFF;
+}
+
+.hello .btnWhatsapp span {
+  color: var(--primary-color);
 }
 
 .gradient {
@@ -165,7 +172,8 @@ header {
 
 .card h2,
 .card p,
-.cardCheck h3 {
+.cardCheck h3,
+.services h2 {
   color: var(--primary-color);
 }
 
@@ -186,11 +194,20 @@ header {
   text-align: center;
 }
 
-.cardsCheck h2 {
+.cardsCheck h2,
+.acting h2,
+.services h2 {
   font-size: 3.5rem;
-  margin: 0 auto 5.0rem;
-  padding-left: 3.8rem;
+  margin: 0 auto;
   max-width: 33.3rem;
+
+  text-align: center;
+}
+
+.cardsCheck h2 {
+  padding-left: 3.8rem;
+  margin-bottom: 5.0rem;
+  text-align: left;
 }
 
 .cardCheck {
@@ -200,7 +217,7 @@ header {
 
   max-width: 33.3rem;
 
-  margin: 2.4rem auto 2.4rem;
+  margin: 0 auto 2.4rem;
   padding: 3.8rem 1.7rem 3.7rem;
 }
 
@@ -219,5 +236,76 @@ header {
 
 .cardCheck p span {
   font-style: italic;
+}
+
+.map {
+  display: flex;
+  justify-content: center;
+}
+
+.map svg {
+  max-width: 33.3rem;
+}
+
+.acting {
+  margin-bottom: 14.0rem;
+}
+
+.acting h2 {
+  text-align: center;
+}
+
+.acting span,
+.services h3 {
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 3.0rem;
+  color: var(--primary-color);
+
+  max-width: 33.3rem;
+}
+
+.acting span {
+  text-align: center;
+  display: block;
+
+  margin: 0 auto;
+}
+
+.acting p {
+  text-align: center;
+  margin: 1.1rem auto 0;
+}
+
+.acting p,
+.services ul {
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 3.0rem;
+
+  max-width: 33.3rem;
+}
+
+.services h2 {
+  margin-bottom: 4.0rem;
+}
+
+.service {
+  margin: 0 auto 4.0rem;
+
+  width: 100%;
+  max-width: 33.3rem;
+}
+
+.service h3 {
+  margin-bottom: 1.0rem;
+}
+
+.services .btnWhatsapp {
+  background-color: var(--primary-color);
+}
+
+.services .btnWhatsapp span {
+  color: #FFFFFF;
 }
 /* ########## end main styles ########## */
