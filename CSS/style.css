@@ -374,4 +374,30 @@ header {
   .gradient svg {
     width: 100%;
   }
+
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(3, 33.4rem);
+    grid-gap: 6.8rem;
+
+    justify-content: center;
+    top: -4.0rem;
+  }
+
+  .cardsCheck {
+    margin-bottom: 12.0rem;
+  }
+
+  .cardsCheck h2 {
+    font-size: 5.0rem;
+  }
+
+  .cardContainer {
+    display: flex;
+  }
+
+  .cardCheck:nth-child(odd) {
+    position: relative;
+    top: 5.0rem;
+  }
 }
