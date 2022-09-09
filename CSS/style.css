@@ -43,7 +43,6 @@ body {
 /* ########## start header styles ##########*/
 
 header {
-  height: 7.2rem;
   width: 100%;
 
   background-color: var(--primary-color);
@@ -312,3 +311,17 @@ header {
   color: #FFFFFF;
 }
 /* ########## end main styles ########## */
+
+/* ########## MEDIA QUERIES ########## */
+
+@media (min-width: 1366px) {
+  
+  header {
+    padding: 5.0rem 9.3rem;
+  }
+
+  .logo svg {
+    width: 17.7rem;
+    height: 5.13rem;
+  }
+}
