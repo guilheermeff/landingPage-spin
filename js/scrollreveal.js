@@ -2,7 +2,6 @@ export function scroll() {
   window.sr = ScrollReveal({reset: true})
 
   ScrollReveal().reveal('.logo',{
-    delay: 100,
     rotate: {
       x: 100,
       y: 0,
@@ -10,7 +9,6 @@ export function scroll() {
     }
   })
   ScrollReveal().reveal('.nav-bar',{
-    delay: 100,
     rotate: {
       x: 100,
       y: 0,
@@ -18,7 +16,6 @@ export function scroll() {
     }
   })
   ScrollReveal().reveal('.textBox',{
-    delay: 100,
     rotate: {
       x: 100,
       y: 0,
@@ -26,7 +23,6 @@ export function scroll() {
     }
   })
   ScrollReveal().reveal('.btnWhatsapp',{
-    delay: 100,
     rotate: {
       x: 100,
       y: 0,
@@ -34,7 +30,6 @@ export function scroll() {
     }
   })
   ScrollReveal().reveal('.gradient',{
-    delay: 100,
     rotate: {
       x: 100,
       y: 0,
@@ -42,7 +37,6 @@ export function scroll() {
     }
   })
   ScrollReveal().reveal('.card',{
-    delay: 200,
     rotate: {
       x: 100,
       y: 0,
@@ -50,7 +44,6 @@ export function scroll() {
     }
   })
   ScrollReveal().reveal('.cardCheck',{
-    delay: 200,
     rotate: {
       x: 100,
       y: 0,
@@ -58,7 +51,6 @@ export function scroll() {
     }
   })
   ScrollReveal().reveal('.acting',{
-    delay: 200,
     rotate: {
       x: 100,
       y: 0,
@@ -66,7 +58,6 @@ export function scroll() {
     }
   })
   ScrollReveal().reveal('.service',{
-    delay: 200,
     rotate: {
       x: 100,
       y: 0,
