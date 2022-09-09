@@ -67,6 +67,7 @@ header {
   background-color: var(--primary-color);
 
   overflow-x: hidden;
+  overflow-y: hidden;
 }
 
 .textBox {
@@ -117,7 +118,7 @@ header {
 
   padding: .9rem 1.625rem;
 
-  margin: 0 auto;
+  margin: 6.9rem auto;
 
   position: relative;
   z-index: 1;
@@ -140,13 +141,8 @@ header {
 
 .gradient {
   position: relative;
-  top: -4.2rem;
+  top: -13.2rem;
   margin: 0 auto;
-}
-
-.gradient svg {
-  position: absolute;
-  left: -49.6rem;
 }
 
 .cards {
@@ -320,8 +316,62 @@ header {
     padding: 5.0rem 9.3rem;
   }
 
+  .hello {
+    max-height: 61.8rem;
+  }
+
   .logo svg {
     width: 17.7rem;
     height: 5.13rem;
+  }
+
+  .textBox {
+    max-width: 95.6rem;
+    max-height: 41.6rem;
+    margin: 1.0rem auto;
+    padding: 0;
+
+    text-align: left;
+
+    position: relative;
+    z-index: 1;
+  }
+
+  .textBox h1 {
+    font-size: 8.5rem;
+    line-height: 12.8rem;
+  }
+
+  .textBox p:nth-child(2) {
+    font-size: 4.5rem;
+    line-height: 6.0rem;
+    margin: 0 0 2.0rem;
+
+    max-width: 47.4rem;
+  }
+
+  .textBox p:nth-child(3) {
+    font-size: 2.2rem;
+    line-height: 3.0rem;
+    margin: 0 0 2.0rem;
+
+    max-width: 40.9rem;
+  }
+
+  .btnWhatsapp {
+    margin: 0;
+
+    position: relative;
+    left: 67.3rem;
+    bottom: 9.0rem;
+  }
+
+  .gradient {
+    top: -15.2rem;
+    width: 100%;
+  }
+
+  .gradient svg {
+    width: 100%;
   }
 }

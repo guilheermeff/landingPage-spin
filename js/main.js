@@ -1,4 +1,4 @@
-import { scroll } from "./scrollreveal.js";
+// import { scroll } from "./scrollreveal.js";
 
 
-const scrollReveal = scroll()
+// const scrollReveal = scroll()
