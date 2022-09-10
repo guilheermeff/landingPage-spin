@@ -13,6 +13,7 @@
   --secondary-color: 	hsl(253, 100%, 81%);
   --third-color: 	hsl(253, 100%, 93%);
   --gray-cardCheck: 	hsl(0, 0%, 96%);
+  --gray-color: hsl(0, 0%, 3%);
 
   --font-general: 'Poppins', sans-serif;
 }
@@ -245,7 +246,7 @@ header {
 }
 
 .acting {
-  margin-bottom: 14.0rem;
+  margin: 0 auto 14.0rem;
 }
 
 .acting h2 {
@@ -283,14 +284,20 @@ header {
   max-width: 33.3rem;
 }
 
+.contentServices {
+  display: grid;
+  gap: 4.0rem;
+
+  padding-left: 3.9rem;
+}
+
 .services h2 {
   margin-bottom: 4.0rem;
 }
 
 .service {
-  margin: 0 auto 4.0rem;
 
-  width: 100%;
+  width: 90%;
   max-width: 33.3rem;
 }
 
@@ -300,7 +307,6 @@ header {
 
 .services .btnWhatsapp {
   background-color: var(--primary-color);
-  margin-bottom: 5.0rem;
 }
 
 .services .btnWhatsapp span {
@@ -385,7 +391,7 @@ header {
   }
 
   .cardsCheck {
-    margin-bottom: 12.0rem;
+    margin-bottom: 16.8rem;
   }
 
   .cardsCheck h2 {
@@ -399,5 +405,79 @@ header {
   .cardCheck:nth-child(odd) {
     position: relative;
     top: 5.0rem;
+  }
+
+  .acting {
+    max-width: 113.0rem;
+  }
+
+  .acting h2 {
+    font-size: 5.0rem;
+    color: var(--primary-color);
+
+    max-width: 79.4rem;
+    text-align: left;
+    margin: 0;
+
+    margin-bottom: 6.5rem;
+  }
+
+  .content {
+    display: flex;
+    align-items: center;
+
+    gap: 4.5rem;
+  }
+
+  .map svg {
+    max-width: 64.8rem;
+  }
+
+  .acting span,
+  .acting p {
+    text-align: left;
+
+    font-size: 2.5rem;
+    line-height: 4.0rem;
+
+    color: var(--gray-color);
+  }
+
+  .acting span:nth-child(2) {
+    margin-bottom: 2.8rem;
+  }
+
+  .services h2 {
+    font-size: 5.0rem;
+    max-width: 42.8rem;
+
+    margin-bottom: 9.3rem;
+  }
+
+  .contentServices {
+    grid-template-columns: 1fr 1fr;
+    max-width: 96.0rem;
+
+    padding-left: 0;
+
+    margin: 0 auto;
+  }
+
+  .service {
+    max-width: 38.0rem;
+  }
+
+  .service h3 {
+    font-size: 2.5rem;
+  }
+
+  .services ul li {
+    font-size: 1.8rem;
+    line-height: 3.5rem;
+  }
+
+  .btnWhatsapp {
+    position: static;
+    margin: 12.5rem auto;
   }
 }
