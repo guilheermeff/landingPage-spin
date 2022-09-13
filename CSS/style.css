@@ -317,6 +317,18 @@ header {
 /* ########## MEDIA QUERIES ########## */
 
 @media (min-width: 1366px) {
+
+  .textBox,
+  .gradient,
+  .cards,
+  .cardsCheck,
+  .acting,
+  .services {
+    width: 100%;
+    max-width: 136.6rem;
+
+    margin-inline: auto;
+  }
   
   header {
     padding: 5.0rem 9.3rem;
